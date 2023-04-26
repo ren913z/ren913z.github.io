@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>HTML基础</title>
+    <url>/2023/04/25/html_1%20-%20%E5%89%AF%E6%9C%AC/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>俗话说：程序猿不一定会搞安全，但是搞安全的一定会懂一点代码。</p>
+<p>今天我们就来聊一聊前端最基础的<strong>HTML</strong>。</p>
+<p>超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。您可以使用 HTML 来建立自己的 WEB 站点，HTML 运行在浏览器上，由浏览器来解析。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>菜鸟教程(runoob.com)<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>我的第一个标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>我的第一个段落。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>如图所示，HTML页面的是由“声明”、“头部元素”以及“可见的页面内容”构成的<br><img src=".source/images/html_1/1.jpg" alt="html结构图"></p>
+<p></p><h2>&lt;!DOCTYPE&gt; 声明</h2><br>&lt;!DOCTYPE&gt;声明有助于浏览器中正确显示网页。<br>网络上有很多不同的文件，如果能够正确声明HTML的版本，浏览器就能正确显示网页内容。<br>doctype 声明是不区分大小写的，以下方式均可：<p></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="meta">&lt;!Doctype <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="meta">&lt;!Doctype <span class="keyword">Html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p></p><h2>HTML &lt;head&gt; 元素</h2><p></p>
+<p>&lt;head&gt; 元素包含了所有的头部标签元素。在 &lt;head&gt;元素中你可以插入脚本（scripts）, 样式文件（CSS），及各种meta信息。</p>
+<p>可以添加在头部区域的元素标签为: &lt;title&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;,
+  &lt;noscript&gt; 和 &lt;base&gt;。</p>
+
+<p></p><h2>HTML &lt;body&gt; 元素</h2><br>&lt;body&gt; &lt;/body&gt;之间写入网页需要展示的内容。<br>可以添加各种元素标签,例如：<p></p>
+<ul>
+<li>盒子（便于更改css样式）：&lt;div&gt;</li>
+<li>段落标签：&lt;p&gt;</li>
+<li>1-6级标题：&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</li>
+<li>按钮：&lt;button&gt;</li>
+<li>文本框：&lt;input&gt;<br>….</li>
+</ul>
+]]></content>
+      <categories>
+        <category>代码基础</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>正则表达式</title>
     <url>/2023/04/25/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1>常用正则表达式</h1>
@@ -93,37 +124,6 @@
       </categories>
       <tags>
         <tag>正则表达式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML基础</title>
-    <url>/2023/04/25/html_1%20-%20%E5%89%AF%E6%9C%AC/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>俗话说：程序猿不一定会搞安全，但是搞安全的一定会懂一点代码。</p>
-<p>今天我们就来聊一聊前端最基础的<strong>HTML</strong>。</p>
-<p>超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。您可以使用 HTML 来建立自己的 WEB 站点，HTML 运行在浏览器上，由浏览器来解析。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>菜鸟教程(runoob.com)<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>我的第一个标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>我的第一个段落。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>如图所示，HTML页面的是由“声明”、“头部元素”以及“可见的页面内容”构成的<br><img src=".source/images/html_1/1.jpg" alt="html结构图"></p>
-<p></p><h2>&lt;!DOCTYPE&gt; 声明</h2><br>&lt;!DOCTYPE&gt;声明有助于浏览器中正确显示网页。<br>网络上有很多不同的文件，如果能够正确声明HTML的版本，浏览器就能正确显示网页内容。<br>doctype 声明是不区分大小写的，以下方式均可：<p></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="meta">&lt;!Doctype <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="meta">&lt;!Doctype <span class="keyword">Html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p></p><h2>HTML &lt;head&gt; 元素</h2><p></p>
-<p>&lt;head&gt; 元素包含了所有的头部标签元素。在 &lt;head&gt;元素中你可以插入脚本（scripts）, 样式文件（CSS），及各种meta信息。</p>
-<p>可以添加在头部区域的元素标签为: &lt;title&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;,
-  &lt;noscript&gt; 和 &lt;base&gt;。</p>
-
-<p></p><h2>HTML &lt;body&gt; 元素</h2><br>&lt;body&gt; &lt;/body&gt;之间写入网页需要展示的内容。<br>可以添加各种元素标签,例如：<p></p>
-<ul>
-<li>盒子（便于更改css样式）：&lt;div&gt;</li>
-<li>段落标签：&lt;p&gt;</li>
-<li>1-6级标题：&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</li>
-<li>按钮：&lt;button&gt;</li>
-<li>文本框：&lt;input&gt;<br>….</li>
-</ul>
-]]></content>
-      <categories>
-        <category>代码基础</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
       </tags>
   </entry>
   <entry>
